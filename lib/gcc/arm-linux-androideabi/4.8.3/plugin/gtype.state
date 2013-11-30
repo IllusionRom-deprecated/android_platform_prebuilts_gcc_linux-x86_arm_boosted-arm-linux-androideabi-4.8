@@ -4,7 +4,7 @@
 ;;; Don't parse this file wihout knowing GCC gengtype internals.
 ;;; This file should be parsed by the same gengtype which wrote it.
 
-(!version  "4.8.3 20131124 (prerelease)")
+(!version  "4.8.3 20131130 (prerelease)")
 
 (!srcdir  "../.././../gcc/gcc-Boosted/gcc")
 
@@ -18817,18 +18817,18 @@ nil 0 nil )
 (!type already_seen 777)
 )
  gc_pointed_to "vec<tree_gc_vec,va_gc>"
-(!srcfileloc  "c-family/c-common.c" 11242)
+(!srcfileloc  "c-family/c-common.c" 11246)
 
 (!fields 2 
 (!pair  "va_gc"
 (!type already_seen 3)
 
-(!srcfileloc  "c-family/c-common.c" 11242)
+(!srcfileloc  "c-family/c-common.c" 11246)
 nil )
 (!pair  "tree_gc_vec"
 (!type already_seen 45)
 
-(!srcfileloc  "c-family/c-common.c" 11242)
+(!srcfileloc  "c-family/c-common.c" 11246)
 nil ))
 )
 
@@ -18843,18 +18843,18 @@ nil 0 nil )
 (!type already_seen 780)
 )
  gc_pointed_to "vec<const_char_p,va_gc>"
-(!srcfileloc  "c-family/c-common.c" 8794)
+(!srcfileloc  "c-family/c-common.c" 8798)
 
 (!fields 2 
 (!pair  "va_gc"
 (!type already_seen 3)
 
-(!srcfileloc  "c-family/c-common.c" 8794)
+(!srcfileloc  "c-family/c-common.c" 8798)
 nil )
 (!pair  "const_char_p"
 (!type already_seen 36)
 
-(!srcfileloc  "c-family/c-common.c" 8794)
+(!srcfileloc  "c-family/c-common.c" 8798)
 nil ))
 )
 
@@ -21288,7 +21288,7 @@ nil 0 nil )
 (!fields 0 )
 nil 0 nil )
 
-(!type struct 992 nil  gc_unused "anonymous:../.././../gcc/gcc-Boosted/gcc/config/arm/arm.c:25904"nil 
+(!type struct 992 nil  gc_unused "anonymous:../.././../gcc/gcc-Boosted/gcc/config/arm/arm.c:25918"nil 
 (!fields 0 )
 nil 0 nil )
 
@@ -21296,7 +21296,7 @@ nil 0 nil )
 (!fields 0 )
 nil 0 nil )
 
-(!type struct 994 nil  gc_unused "anonymous:../.././../gcc/gcc-Boosted/gcc/config/arm/arm.c:19450"nil 
+(!type struct 994 nil  gc_unused "anonymous:../.././../gcc/gcc-Boosted/gcc/config/arm/arm.c:19464"nil 
 (!fields 0 )
 nil 0 nil )
 
@@ -26127,22 +26127,22 @@ nil )
 (!pair  "vec<tree_gc_vec,va_gc>"
 (!type already_seen 777)
 
-(!srcfileloc  "c-family/c-common.c" 11242)
+(!srcfileloc  "c-family/c-common.c" 11246)
 nil )
 (!pair  "tree_gc_vec"
 (!type already_seen 45)
 
-(!srcfileloc  "c-family/c-common.c" 11241)
+(!srcfileloc  "c-family/c-common.c" 11245)
 nil )
 (!pair  "vec<const_char_p,va_gc>"
 (!type already_seen 780)
 
-(!srcfileloc  "c-family/c-common.c" 8794)
+(!srcfileloc  "c-family/c-common.c" 8798)
 nil )
 (!pair  "const_char_p"
 (!type already_seen 29)
 
-(!srcfileloc  "c-family/c-common.c" 8793)
+(!srcfileloc  "c-family/c-common.c" 8797)
 nil )
 (!pair  "disabled_builtin"
 (!type already_seen 782)
@@ -26472,27 +26472,27 @@ nil )
 (!pair  "arm_mangle_map_entry"
 (!type already_seen 992)
 
-(!srcfileloc  "config/arm/arm.c" 25908)
+(!srcfileloc  "config/arm/arm.c" 25922)
 nil )
 (!pair  "builtin_arg"
 (!type already_seen 9)
 
-(!srcfileloc  "config/arm/arm.c" 21186)
+(!srcfileloc  "config/arm/arm.c" 21200)
 nil )
 (!pair  "neon_builtin_datum"
 (!type already_seen 994)
 
-(!srcfileloc  "config/arm/arm.c" 19456)
+(!srcfileloc  "config/arm/arm.c" 19470)
 nil )
 (!pair  "neon_itype"
 (!type already_seen 9)
 
-(!srcfileloc  "config/arm/arm.c" 19448)
+(!srcfileloc  "config/arm/arm.c" 19462)
 nil )
 (!pair  "neon_builtin_type_mode"
 (!type already_seen 9)
 
-(!srcfileloc  "config/arm/arm.c" 19382)
+(!srcfileloc  "config/arm/arm.c" 19396)
 nil )
 (!pair  "arm_pragma_enum"
 (!type already_seen 9)
@@ -29978,7 +29978,7 @@ nil )
 (!pair  "tree_vector_cache"
 (!type already_seen 778)
 
-(!srcfileloc  "c-family/c-common.c" 11242)
+(!srcfileloc  "c-family/c-common.c" 11246)
 
 (!options 
 (!option deletable string  "")
@@ -29987,7 +29987,7 @@ nil )
 (!pair  "optimize_args"
 (!type already_seen 781)
 
-(!srcfileloc  "c-family/c-common.c" 8794)
+(!srcfileloc  "c-family/c-common.c" 8798)
 nil )
 (!pair  "compound_literal_number"
 (!type already_seen 9)
@@ -30397,17 +30397,17 @@ nil )
 (!type already_seen 5)
 )
 
-(!srcfileloc  "config/arm/arm.c" 19960)
+(!srcfileloc  "config/arm/arm.c" 19974)
 nil )
 (!pair  "tls_get_addr_libfunc"
 (!type already_seen 136)
 
-(!srcfileloc  "config/arm/arm.c" 6370)
+(!srcfileloc  "config/arm/arm.c" 6384)
 nil )
 (!pair  "pic_labelno"
 (!type already_seen 9)
 
-(!srcfileloc  "config/arm/arm.c" 5652)
+(!srcfileloc  "config/arm/arm.c" 5658)
 nil )
 (!pair  "va_list_type"
 (!type already_seen 5)
